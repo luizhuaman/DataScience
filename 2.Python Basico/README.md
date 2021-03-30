@@ -1,475 +1,872 @@
-<div align="center"> <h1> Curso Básico de Python </h1> </div>
+# Curso Básico de Python
 
-## Ventajas de aprender python
+- [Curso Básico de Python](#curso-básico-de-python)
+  - [Modulo 1 Introduccion a la programacion con Python](#modulo-1-introduccion-a-la-programacion-con-python)
+    - [Clase 1 EL arte de la programacion](#clase-1-el-arte-de-la-programacion)
+    - [Clase 2 Por que Python](#clase-2-por-que-python)
+    - [Clase 3 El núcleo de un programa: los algoritmos](#clase-3-el-núcleo-de-un-programa-los-algoritmos)
+    - [Clase 4 Instalación de nuestras herramientas (en Windows)](#clase-4-instalación-de-nuestras-herramientas-en-windows)
+    - [Clase 5 Instalacion de nuestras herramientas en Mac](#clase-5-instalacion-de-nuestras-herramientas-en-mac)
+    - [Clase 6 Instalacion de nuestras herramientas en Ubuntu](#clase-6-instalacion-de-nuestras-herramientas-en-ubuntu)
+    - [Clase 7 Tu mejor herramienta: la consola](#clase-7-tu-mejor-herramienta-la-consola)
+  - [Modulo 2 Conceptos basicos de Python](#modulo-2-conceptos-basicos-de-python)
+    - [Clase 8 Explorando Python: operadores aritméticos](#clase-8-explorando-python-operadores-aritméticos)
+    - [Clase 9 Que es una variable](#clase-9-que-es-una-variable)
+    - [Clase 10 Los primitivos: tipos de datos sencillos](#clase-10-los-primitivos-tipos-de-datos-sencillos)
+    - [Clase 11 Convertir un dato a un tipo diferente](#clase-11-convertir-un-dato-a-un-tipo-diferente)
+    - [Clase 12 Operadores logicos y de comparacion](#clase-12-operadores-logicos-y-de-comparacion)
+    - [Clase 13 Tu primer programa: conversor de monedas](#clase-13-tu-primer-programa-conversor-de-monedas)
+  - [Modulo 3 Herramientas para programar](#modulo-3-herramientas-para-programar)
+    - [Clase 14 Construyendo el camino de un programa con condicionales](#clase-14-construyendo-el-camino-de-un-programa-con-condicionales)
+    - [Clase 15 Varios paises en mi conversor de monedas](#clase-15-varios-paises-en-mi-conversor-de-monedas)
+    - [Clase 16 Aprendiendo a no repetir codigo con funciones](#clase-16-aprendiendo-a-no-repetir-codigo-con-funciones)
+    - [Clase 17 Modularizando nuestro conversor de monedas](#clase-17-modularizando-nuestro-conversor-de-monedas)
+    - [Clase 18 Trabajando con texto: cadenas de caracteres](#clase-18-trabajando-con-texto-cadenas-de-caracteres)
+    - [Clase 19 Trabajando con texto: slices](#clase-19-trabajando-con-texto-slices)
+    - [Clase 20 Proyecto: palindromo](#clase-20-proyecto-palindromo)
+  - [Modulo 4 Bucles](#modulo-4-bucles)
+    - [Clase 21 Aprendiendo bucles](#clase-21-aprendiendo-bucles)
+    - [Clase 22 El ciclo while](#clase-22-el-ciclo-while)
+    - [Clase 23 Explorando un bucle diferente: el ciclo for](#clase-23-explorando-un-bucle-diferente-el-ciclo-for)
+    - [Clase 24 Recorriendo un string con for](#clase-24-recorriendo-un-string-con-for)
+    - [Clase 25 Interrumpiendo ciclos con break y continue](#clase-25-interrumpiendo-ciclos-con-break-y-continue)
+    - [Clase 26 Proyecto: prueba de primalidad](#clase-26-proyecto-prueba-de-primalidad)
+    - [Clase 27 Proyecto: videojuego](#clase-27-proyecto-videojuego)
+  - [Modulo 5 Estructuras de datos](#modulo-5-estructuras-de-datos)
+    - [Clase 28  Almacenar varios valores en una variable: listas](#clase-28-almacenar-varios-valores-en-una-variable-listas)
+    - [Clase 29 Entendiendo cómo funcionan las tuplas](#clase-29-entendiendo-cómo-funcionan-las-tuplas)
+    - [Clase 30 Que son los diccionarios](#clase-30-que-son-los-diccionarios)
+    - [Clase 31 Proyecto: generador de contrasenas](#clase-31-proyecto-generador-de-contrasenas)
 
-- Es Fácil de aprender, es un lenguaje que esta en contacto con el idioma ingles
-- Elegante, python necesita de una estructura definida para funcionar correctamente
-- Python ayuda a tener buenas practicas, para que a la hora de pasar a otro lenguaje se nos haga mucho más sencillo
+## Modulo 1 Introduccion a la programacion con Python
 
-## ¿Que es un Algoritmo?
+### Clase 1 EL arte de la programacion
 
-- Un algoritmo es una serie de pasos ordenados para resolver un problema
-- Tiene que tener un Inicio y Fin claro, es decir un Algoritmo es Finito y ordenado
-- No es Ambiguo
+Programar es darle instrucciones a la computadora para que realce un trabajo especifico.
 
-## La mejor herramienta: La consola
+### Clase 2 Por que Python
 
-- La consola nos permite interactuar con nuestra computadora mediante el codigo
-- Comandos basicos en la consola.
-  - Ctrl + L o clear = Limpia La consola
-  - cd = change directory cambia de directorio
-  - cd .. = cambia de directorio a la carpeta padre de esta
-  - ls = list nos lista todos los archivos del directorio
-  - mkdir = Make Directory, Crear directorio
-  - touch = nos crea un archivo
-- Python cuenta con una consola interactiva que se inicia con el comando py en windows, python3 para usuarios Unix
+Antes de elegir un nuevo lenguaje para aprender debemos pensar primero que queremos lograr o realizar (ciencia de datos, backend, frontend, desarrollo de videojuegos, desarrollo movil, iot, DevOps, etc).
 
-## Cuales son los operadores aritméticos en Python?
+Python esta en todos lados (google, spotify, platzi, etc)
 
-- En python los operadores aritméticos son los que nos ayudan a hacer las distintas operaciones matematicas
+Ventajas:
+
+- Fácil
+- Elegante
+- Buenas practicas
 
-  - Suma (+)
+### Clase 3 El núcleo de un programa: los algoritmos
 
-    5+5 ⇒ 5
+ Algoritmo se define por tener estas caracteristicas:
 
-  - Resta (-)
+- Una serie de  pasos para resolver un problema
+- Finito
+- No ambiguo
 
-    5-5 ⇒ 0
+### Clase 4 Instalación de nuestras herramientas (en Windows)
 
-  - Multiplicación (\*)
+1.- Instalacion del editor de código de tu elección. (VScode)
+2.- Uso de terminal, el profesor utiliza cmder (me quedo con ubuntu)
+3.- Instalacion de python 3
 
-    5\*5 ⇒ 25
+### Clase 5 Instalacion de nuestras herramientas en Mac
 
-  - División (/)
-  - 21/5 ⇒ 4.2
-  - División entera (//), Esta nos trae el numero entero de la division
+Nota: Si usas una mac el proceso es el mismo para instalar cualquier programa, descarga e instala VScode y python3.
 
-    21 // 5 ⇒ 4
+### Clase 6 Instalacion de nuestras herramientas en Ubuntu
 
-  - Modulo (%), Este nos trae el recidio de la division
+Nota: Si usas una distro de linux el proceso es el mismo para instalar cualquier programa, descarga e instala VScode y python3.
 
-    21 % 5 ⇒ 1
+### Clase 7 Tu mejor herramienta: la consola
 
-  - Potencia (\*\*)
+Comandos básicos Unix
 
-    2 \*\* 2 ⇒ 4
+1.- control+L (Limpieza a la consola)
+2.- mkdir mi_carpeta (Crear carpeta)
+3.- ls (Listar archivos y directorios del directorio actual)
+4.- cd mi_carpeta (Ingresar a la nueva carpeta)
 
-  - Python respeta las reglas matematicas que dice
+Para profundizar en comandos (si eres nuevo usuario) mira el curso de termina y linea de comandos en platzi.
+<https://platzi.com/clases/terminal/>
 
-    5 + 5 \* 2 ⇒ 15
+## Modulo 2 Conceptos basicos de Python
 
-  - Raiz
+### Clase 8 Explorando Python: operadores aritméticos
 
-    math.sqrt(9)
+Usando la consola interactiva de python realizamos lo siguiente
 
-## ¿Que es una variable?
+```py
+#Suma (+)
+>>> 5+5
+5
 
-- El termino variable se utiliza fuera del ambito matematico para designar una cantidad susceptible de tomar distintos valores numéricos dentro de un cojunto de números especificado. En otras palabras podemos asociar una variable en la vida real con una caja, esta caja tendra un identificador unico y en esta podemos guardar objetos: números, texto, etc.
-- Para declarar una variable en python lo hacemos de la siguiente manera:
+#Resta (-)
+>>> 5-5
+0
 
-  ```python
-  ## primero colocamos el nombre de la variable "identificador" seguido de un
-  ##igual (=) que significa asignación
+#Multiplicación (#)
+>>> 5*5
+25
 
-  numero = 3
-  print(numero) # => 3
-  ```
+#División (/)
+>>> 21/5
+4.2
 
-- Las variables las podemos operar, lo que entendera el lenguaje es que tiene que operar el contenido de la variable, tambien podemos guardar una variable dentro de otra por ejemplo, si guardamos dos numeros en dos distintas variables y luego hacemos alguna operacion matematica, podemos guardar el resultado de esa operacion en una variable
+#División entera (//), Esta nos trae el numero entero de la division
+>>> 21 // 5
+4
 
-  ```python
-  	numero1 = 2
-  	numero2 = 3
-  	numero_resultado = numero1 + numero2
-  	print(numero_resultado) # => 5
-  ```
+#Modulo (%), Este nos trae el residuo de la division
+>>> 21 % 5
+1
 
-- Las variables se pueden reescribir
-- Las variables tienen reglas que son:
-  - El identificador o nombre de variable no puede comenzar con un número y debe estar en minúsculas. Las palabras dentro del mismo se separan con un guión bajo
+#Potencia (**)
+>>> 2 ** 2
+4
 
-## Tipos de datos
-
-- En python todo es un objeto
-- Los más sencillos son, los enteros (int), Números punto flotante(float), texto o cadenas de caracteres (string), Booleanos (true o false)
-- Trabajando con las variables
-
-  ```python
-  nombre = "Sergio"
-  nombre2 = 'Luis'
-
-  nombre + nombre2 # => "SergioLuis" # Concatenacion la union de dos o más strings
-  nombre + " " + nombre2 # => "Sergio Luis"
-  nombre * 4 # => "SergioSergioSergioSergio" # Podemos multiplicar el string
-
-  numero_decimal = 3.4 # Para los numeros decimales siempre se utiliza el punt (.)
-
-  es_estudiante = True
-
-  ```
-
-## Operadores lógicos y de comparacion
-
-- Operadores logicos
-  - and - para que se pueda cumplir la condicion todas las variables comparadas tienen que ser verdaderas
-  - or - para que se pueda cumplir la condicion almenos una de las variables comparadas tiene que ser verdaderas, para que la condicion de falso todas las variables comparadas tienen que ser false
-  - not - invierte el valor de una variable, es decir si una variable es true y colocamos not la variable cambiara a false
-- Operadores de comparacion
-
-  - (==) igualdad, nos valida que el contenido de las variables sean iguales
-
-    ```python
-    numero1 = 5
-    numero2 = 5
-
-    numero1 == numero2 #=> True
-    ```
-
-  - (≠) distinto, nos valida que el contenido de las variables no sean iguales
-  - (>) mayor, compara si una variale es mayor que el otro
-  - (<) menor,compara si una variale es menor que el otro
-  - (⇒) mayor o igual
-  - (≤) menor o igual
-
-## Condicionales
-
-- La regla de identacion seguido de if es de 4 espacios
-- If es una condicion que nos dice en pocas palabras, Sí la condicion se cumple haz algo y Si no haz otra cosa
-
-  ```python
-  if edad >= 18:
-  		print('Eres mayor de edad')
-  else:
-  		print('Eres menor de edad')
-  ```
-
-  Esto se leé de la siguiente forma: Si tu edad es mayor o igual a 18 eres mayor de edad, si no eres menor de edad.
-
-- elif significa si no y va entre el if y el else
-- else si no, que significa, si ninguno de los casos anteriores se cumplieron ejecuta lo que esta dentro
-
-## Funciones
-
-- Para declarar una funcion se utiliza la palabra reservada "def" seguido del nombre de la funcion con dos parentesis y en caso de que la funcion reciba parametros se los ponemos dentro
-- Las funciones pueden devolver datos en caso de que los necesitemos y para esto se utiliza la palabra reservada "return" seguido del nombre de la variable que queremos retornar
-
-## Metodos
-
-- Un metodo es una funcion especial para un tipo de dato en particular
-- Convertir Datos a un tipo diferente
-
-  - input() para pedirle al usuario que introduzca datos.
-
-    ```python
-    numero1 = input("Escribe un numero") # 2
-    print(numero1)
-    #=> '2'
-    ```
-
-  - int() convierte datos o variables dentro de los parentecis en tipo entero
-
-    ```python
-    numero1 = int(numero1) # pasamos la variable que tiene nuestro string
-    print(numero1)
-    # => 2
-    ```
-
-  - str() nos convierte datos o variables dentro de los parentecis en tipo string
-
-    ```python
-    numero_decimal = 4.5
-    str(numero_decimal)
-    # => '4.5'
-    ```
-
-  - float() nos convierte datos o variables en tipo float
-
-- Transformar Cadenas de caracteres
-  - upper() Transforma todos los caracteres en mayusculas
-  - capitalize() Transforma el primer caracter en mayusculas
-  - strip() Elimina los espacios que estan al principio o al final de la cadena
-  - lower() transforma la cadena de caracteres a minisculas
-  - replace('in','out') este metodo recibe dos parametros el primero es el dato que sera reemplazado por el segundo
-  - para poder acceder a los indices de una cadena se hace con [ ]
-  - len() nos trae cuantos caracteres tiene la cadena
-- round(dato, numero de decimales) recibe dos parametros el dato o variable y el numero de decimales que queremos EJ: round(5.76543, 2) ⇒ 5.76
-- range(valor inicial, valor final, incremento) la funcion range devuelve una secuencia de numeros, comenzando desde el valor inicial y se encrementa en 1(por defecto), sin embargo, es posible especificar el valor de incremento agregando un tercer parámetro y termina en el valor final que le establezcamos.
-
-**EJ:** range(1,5) ⇒ [1, 2, 3, 4]. Como se ve en el ejemplo el valor final no es incluyente
-
-## Slices
-
-- Podemos dividir cadenas de texto utilizando slices de la siguiente forma
-
-  Se accede a los indices, en los corchetes colocamos el indice desde donde queremos dividir la cadena colocamos dos puntos y el indice hasta donde queremos dividir
-
-  ```python
-  nombre[1:3]
-  # Cuando no colocamos el primer indice
-  nombre[:3]
-  # Quiere decir que empieza a dividir desde el principio de la cadena
-  nombre[3:]
-  # y es igual para el caso contrario
-  ```
-
-  A esto tambien le podemos agregar un tercer valor que es el numero de saltos que va a dar para dividir la cadena es decir si colocamos dos va a ir de dos en dos
-
-## Punto de entrada y funcion principal
-
-- En python es una buena practica tener una funcion principal que es la que nos va a correr el programa al principio, un estandar para definir esta funcion es:
-
-  ```python
-  def run():
-  ```
-
-- Punto de entrada en python se hace de la siguiente forma
-
-  ```python
-  if __name__ == '__main__':
-  		pass
-  ```
-
-  Esto quiere decir que python va a correr todo lo que este dentro de este bloque de codigo
-
-- Una buena practica en python es siempre dejar dos espacios entre funciones
-
-## Bucles en Python
-
-Un bucle es algo que podemos hacer iterar una cantidad determinada de veces
-
-- while
-
-  While significa Mientras qué y lo que hace es que mientras que la condicion en la exprecion se cumpla ejecutara el bloque de codigo
-
-  ```python
-  while expresión:
-      pass
-  ```
-
-- for
-
-  Un bucle for se usa para iterar sobre una secuencia(que es una lista, una tupla, un diccionario, un cojunto o una cadena), podemos ejecutar un cojunto de declaraciones, una vez para cada elemento de una lista, tupla, etc.
-
-  ```python
-  for target_list in expression_list:
-      pass
-  ```
-
-  Tambien podemos recorrer una cadena(string) con un for, esto quiere decir que vamos a tomar una cadena de caracteres y vamos a ir por cada parte unica o indice a la vez dentro de un ciclo
-
-  - **Interrumpiendo ciclos con break y continue**
-
-    - **break** simplemente termina el bucle actual y continua con la ejecucíon de la siguiente instrucción, por ejemplo:
-
-      ```python
-      def run():
-          for i in range(10000):
-              print(i)
-              if i == 5678:
-                  break
-      ```
-
-      En el anterior ejemplo declaramos un bucle **for** y lo hacemos iterar desde el 0 hasta 9999, imprimiendo cada paso que de **i**, cuando **i** llegue a 5678 el bucle se terminara
-
-    - **break** con while
-
-      ```python
-      def run():
-          LIMITE = 10
-          contador = 0
-          while contador < LIMITE:
-              print(contador)
-              contador += 1
-              if contador == 5:
-                  break
-      ```
-
-      En este ejemplo definimos un **Limite**, un **contador** y decimos, mientras que el **contador** sea menor que el **limite** imprime el contador y despues sumale 1, si contador es igual a 5 termina de ejecutarte.
-
-    - **continue** Cuando aparece un continue en python este regresa al comienzo del bucle, ignorando todos los estamentos que quedan en la iteración del bucle e inicia la siguiente iteración, **continue** se puede utilizar tanto en bucles **for** como en bucles **while.** Ejemplo de **continue** en bucle **for**
-
-      ```python
-      def run():
-          for contador in range(1000):
-              if contador % 2 != 0:
-                  continue
-              print(contador)
-      ```
-
-      En este ejemplo declaramos un ciclo for con un contador y que este itere en un rango de 0 a 9999, si contador % 2 ≠ 0, es decir si el contador es impar ejecuta continue y al final imprime contador. Lo que nos retornara el programa son todos los numeros pares de 0 a 9999 por que **continue** nunca dejara que se impriman los impares
-
-## Constantes en Python
-
-- Las constates son lo opuesto a las variables es decir, que no va a variar y que siempre estara en un numero fijo, en python estas variables se declaran colocando su nombre todo en mayuscula
-
-  ```python
-  LIMITE = 1000;
-  ```
-
-## Que es un Modulo en Python
-
-- Un **Modulo** es un paquete de codigo escrito por las personas que escribieron python que tenemos disponible para ejecutar funciones ya escritas
-- Uno de esos modulos es: **random** y para hacer uso de este tenemos que importarlo en nuestro archivo, de la siguiente manera:
-
-  ```python
-  import random
-  ```
-
-  el modulo **random** contiene funciones para trabajar con la aleatoriedad con python, un caso de uso podria ser generar un numero aleatorio entre 1 y 100
-
-  Para acceder a las funciones que tiene el modulo tenemos que llamar al modulo seguido de un punto, algunos editores de texto como el caso de visual code ayudan con el autocompletado y muestran los diferentes funciones que contiene el modulo, un ejemplo seria:
-
-  ```python
-  numero_aleatorio = random.randint(1,100)
-  ```
-
-  la funcion **randint** pertenece al modulo **random** y lo que hace es generar un numero entero desde un valor inicial, hasta un valor final como se puede ver en el anterior ejemplo.
-
-## Estructuras de datos en Python
-
-- Listas
-
-  - Las listas son una estructura de datos, y una estructura de datos son formas que nos brindan los lenguajes de programación, las listas son las más intuitivas y nos permiten guardar varios tipos de valores dentro de una misma variable. Las listas en otros lenguajes son parecidas a los **Array**
-
-  - La forma en la que podemos guardar varios datos en una variable es la siguiente:
-
-  ```python
-  numeros = [1,3,6,8,9,24,30]
-  print(numeros)
-  # =>[1,3,6,8,9,24,30]
-  objetos = ['Hola', 3, 4.5 , True]
-  print(objetos)
-  # => ['Hola', 3, 4.5 , True]
-  ```
-
-  La forma en que podemos acceder a los elementos de una lista es con los indices, y para recordar los indices en programación siempre empiezan en la posicion 0, es decir, si queremos acceder a un tercer dato de una lista tendriamos que solicitar el indice 2 de la lista
-
-  ```python
-  objetos[2]
-  # => 4.5
-  objetos[0]
-  # => 'Hola'
-  objetos[1]
-  # => 3
-  ```
-
-  - Las **listas** cuentan con una serie de metodos que nos permiten manipularlas
-
-    **.append()**, este metodo inserta un nuevo elemento al final de la lista, este se lo tenemos que pasar como parametro
-
-    ```python
-    objetos.append(False)
-    print(objetos)
-    # => ['Hola', 3, 4.5 , True, False]
-    ```
-
-    **.pop()**, este metodo elimina un elemento de la lista por su indice
-
-  ````python
-  objetos.pop(2)
-  print(objetos)
-  # => ['Hola', 3, True, False]
-
-  **.sort()**, este metodo ordena la lista de menor a mayor, este modifica la lista i
-  ```python
-  A = [4, 1,9]
-  A.sort() # => [1,4,9]
-  ````
-
-  **sorted()**, este metodo recibe una lista y retorna otra ordenada de menor a mayor este metodo **No** modifica la lista inicial, por lo cual si queremos guardar el resultado tendremos que guardarlo en una nueva variable
-
-  ```python
-  A = [4, 1,9]
-  B = sorted(A) # => [1,4,9]
-
-  ```
-
-  **.remove()**, este metodo recibe un valor de la lista y este lo elimina
-
-  ```python
-  A = [4, 1,9]
-  A.remove(1) # => [4,9]
-  ```
-
-  **.range()** creacion de listas en un rango determinado
-
-  ```python
-  a = list(range(0,10)) # crea una lista desde 0 hasta 10 de 1 uno en 1
-  ```
-
-  **len()** recibe una lista y devuelve el tamaño de esta
-
-  ```python
-  a = [4, 1,9]
-  len(a) # => 3
-  ```
-
-  - Las **listas** tambien pueden ser recorridas elemento a elemento con un ciclo for, de la misma forma que hacemos con los strings
-  - De igual forma podemos manipular listas con slices, concatenacion, multiplicar la lista de la misma manera que con los strings
-
-  - Tuplas
-
-    - Las **tuplas** son un tipo de dato que se parecen a las listas, la diferencia es que las listas son dinamicas y las **tuplas** son estaticos, es decir, son inmutables no se puede modificar sus elementos
-    - Para definir una **tupla** se hace con parentecis () de la siguiente forma
-
-      ```python
-      tupla = (1,2,3,4,5)
-      ```
-
-    - Las **tuplas** en python son consideradas la estructura de datos más rapida
-    - Una ventaja de las **tuplas** sobre las **listas** es a la hora de recorrer ciclos for, estas iteracciones se hacen más rapido
-
-  - Diccionarios
-
-    - **Los Diccionarios** es una estructura de datos de llaves y valores
-    - La forma en que se definen los **diccionarios** es encerrando sus elementos dentro de llaves { } de la siguiente forma
-
-      ```python
-      mi_diccionario = {
-      		#Los elementos tienen que ir separados por coma
-      		'llave1': 1,
-      		'llave2': 2,
-      		'llave3': 3,
-      }
-      print(mi_diccionario)
-      # => {'llave1': 1,'llave2': 2,'llave3': 3}
-      ```
-
-      - Para acceder a los elementos de un **diccionario,** llamamos a la variable del diccionario y entre corchetes [ ] pasamos el nombre de la llave del elemento que necesitamos
-
-        ```python
-        print(mi_diccionario['llave1']) #1
-        print(mi_diccionario['llave2']) #2
-        print(mi_diccionario['llave3']) #3
-        ```
-
-      - Los **diccionarios** tambien cuentan con metodos uno de ellos es **.keys()**, este metodo devuelve las llaves del diccionario, otro es el metodo **.values()** y lo que hace es devolver los valores de las llaves. **.items()** este metodo devuelve los dos valores, las llaves y el valor de la llave
-      - Con los **diccionarios** tambien podemos recorrer ciclos for
-
-        ```python
-        poblacion_paises = {
-                'Argentina': 4493872,
-                'Brazil': 1023102312,
-                'Colombia': 50372424,
-        }
-
-        for pais in poblacion_paises.keys():
-                print(pais)
-        # Argentina
-        # Brasil
-        # Colombia
-
-        for poblacion in poblacion_paises.values():
-                print(pais)
-        # 4493872
-        # 1023102312
-        # 50372424
-
-        # Como el metodo nos devuelve dos elementos tenemos que agregar un segundo
-        # elemento iterador en el for para no tener errores
-        for pais,poblacion in poblacion_paises.items():
-                print(pais + ' tiene ' + str(poblacion) + ' habitantes')
-        # Argentina tiene 4493872 habitantes
-        # Brasil tiene 1023102312 habitantes
-        # Colombia tiene 50372424 habitantes
-        ```
+#Python respeta las reglas matemáticas que dice
+>>> 5 + 5 * 2
+15
+```
+
+Python siempre sigue el orden de las operaciones aritméticas, ante la duda siempre recuerda PEMDAS.
+
+**P**aréntesis
+**E**xponentes
+**M**ultiplicación
+**D**ivisión
+**A**dición
+**S**ustracción.
+
+### Clase 9 Que es una variable
+
+Una variable es una caja donde puedes guardar un objeto, cada variable tiene un identificador en memoria
+
+```py
+>>> numero = 3
+>>> print(numero)
+3
+>>> numero2 = 5
+>>> numero3 = numero + numero2
+>>> print(numero)
+8
+```
+
+Reglas para variables
+
+- nunca iniciar con números o símbolos
+- usar minúsculas si solo es una palabra
+- usar camel_case si son varias palabras
+
+### Clase 10 Los primitivos: tipos de datos sencillos
+
+En python todo es un objeto
+
+Los tipos de datos primitivos en python:
+
+- int: entero (3)
+- float: números con punto flotante (4.0)
+- str: cadenas de texto o strings ('hola mundo')
+- bool: booleano (1 o 0), (True o False)
+
+### Clase 11 Convertir un dato a un tipo diferente
+
+En python podemos convertir  a conveniencia los tipos de datos primitivos
+
+```py
+#Convertir un dato a un tipo diferente
+>>> nombre_variable = input( “Ingresa texto”)
+>>> numero1 = input(“Escribe un numero:”)
+
+>>> print(numero1)
+'4’
+
+>>> numero2 = input(“Escribe un numero”)
+>>> print(2)
+'5’
+
+
+#Si sumas
+>>> print(numero + numero 2)
+'45’
+
+#PARA CONVERTIRLO A NUMERO
+>>> numero1 = int(numero1)
+>>> numero2 = int(numero2)
+
+>>> print(numero1 + numero2)
+9
+
+#CONVERTIR DE NUMERO A TEXTO
+str(numero1)
+'4'
+```
+
+### Clase 12 Operadores logicos y de comparacion
+
+- **and** para comparar si dos valores son verdaderos.
+- **or** para comparar si dos valores son falsos.
+- **not** para invertir el valor booleano.
+- **==** Compara dos valores y te dice si son iguales o no.
+- **!=** Compara dos valores y te dice sin son diferentes o no.
+- **>** Compara si es mayor que otro valor.
+- **>** Compara si es menor que otro valor.
+- **>=** igual o mayor que el valor a comparar.
+- **<=** igual o menor que el valor a comparar
+
+Ejemplos de la clase en consola interactiva de python
+
+```py
+>>> es_estudiante = True
+>>> es_estudiante
+True
+>>> trabaja = False
+>>> es_estudiante and trabaja
+False
+>>> es_estudiante or trabaja
+True
+>>> not trabaja
+True
+>>>
+>>> numero1 = 5
+>>> numero2 = 5
+>>> numero1
+5
+>>> numero2
+5
+>>> numero1 == numero2
+True
+>>> numero3 = 7
+>>> numero1 == numero3
+False
+>>> numero1 != numero3
+True
+>>> numero1 > numero3
+False
+>>> numero1 < numero3
+True
+>>> numero1 >= numero3
+False
+>>> numero1 >= numero2
+True
+>>> numero1 <= numero2
+True
+>>> numero1 <= numero3
+True
+>>>
+```
+
+### Clase 13 Tu primer programa: conversor de monedas
+
+```py
+# Convertir pesos a dolares
+pesos = input("¿Cuántos pesos tienes? ")
+pesos = float(pesos)
+valor_dolar = 22.03
+dolares = pesos / valor_dolar
+dolares = round(dolares, 2)
+dolares = str(dolares)
+
+print("Tienes $" + dolares + " dolares")
+
+
+
+# Convertir dolares a pesos
+dolares = input("¿Cuántos dolares tienes? ")
+dolares = float(dolares)
+valor_pesos = 22.03
+pesos = dolares * valor_dolar
+pesos = round(pesos, 2)
+pesos = str(pesos)
+
+print("Tienes $" + pesos + "pesos")```
+```
+
+## Modulo 3 Herramientas para programar
+
+### Clase 14 Construyendo el camino de un programa con condicionales
+
+```py
+# # Ejemplo 1
+# edad = int(input ("Escribe tu edad :"))
+# if edad > 17:
+#     print("Eres mayor de edad")
+# else:
+#     print("Eres menor de edad")
+
+# Ejemplo 2
+numero = int(input("Escribe un numero : "))
+
+if numero > 5:
+    print("Es mayor a 5")
+elif numero == 5:
+    print("Es igual a 5")
+elif numero < 5:
+    print("Es menor a 5")
+
+```
+
+### Clase 15 Varios paises en mi conversor de monedas
+
+```py
+# conversor de pesos a dolares
+
+menu = """
+Bienvenido al conversor de monedas
+
+1 - Pesos Colombianos
+2 - Pesos Argentinos
+3 - Pesos Mexicanos
+
+Elige una opción: """
+
+opcion = int(input(menu))
+
+if opcion == 1:
+    pesos = input("¿Cantos pesos colombianos tienes?:  ")
+    pesos = float(pesos)
+    valor_dolar = 3679
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + " dólares")
+elif opcion == 2:
+    pesos = input("¿Cantos pesos argentinos tienes?:  ")
+    pesos = float(pesos)
+    valor_dolar = 65
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + " dólares")
+elif opcion == 3:
+    pesos = input("¿Cantos pesos argentinos tienes?:  ")
+    pesos = float(pesos)
+    valor_dolar = 24
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + " dólares")
+```
+
+### Clase 16 Aprendiendo a no repetir codigo con funciones
+
+```py
+# def imprimir_mensaje():
+#     print("Mensaje Especial : ")
+#     print("¡Estoy aprendiendo a usar funciones!")
+
+# imprimir_mensaje()
+# imprimir_mensaje()
+# imprimir_mensaje()
+
+def conversacion(mensaje):
+    print("Hola")
+    print("Como estas")
+    print(mensaje)
+    print("a Dios!")
+
+
+
+opcion = int(input("Elije una opcion: (1,2,o 3) "))
+if opcion == 1:
+    conversacion("Elegiste la opcion 1")
+elif opcion == 2:
+    conversacion("Elegiste la opcion 2")
+elif opcion == 3:
+    conversacion("Elegiste la opcion 3")
+else:
+    print("Escribe la opcion correcta")
+```
+
+### Clase 17 Modularizando nuestro conversor de monedas
+
+Esta clase hace la introduccion del keyword return, retorna el valor de una funcion.
+
+```py
+#Este programa convierte una cantidad de dolares a pesos mexicanos
+
+#Primero definimos nuestras funciones
+def conversor(tipo_pesos,valor_dolar):
+    pesos = input("¿Cuantos pesos " + tipo_pesos + " convertirás? ")
+    pesos = float(pesos)
+    dolares = pesos / valor_dolar
+    dolares = round(dolares,2)
+    dolares = str(dolares)
+    pesos = input("Tienes " + dolares + " dolares")
+
+
+# Pedimos al usuario la cantidad que solares a convertir
+menu = """ Bienvenido al conversor de monedas 💰
+
+1 - Pesos colombianos
+2 - Pesos argentinos
+3 - Pesos mexicanos
+
+Elije una opciones : """
+
+opcion = int(input(menu))
+if opcion == 1:
+    conversor("colimbianos",3875)
+elif opcion == 2:
+    conversor("argentinos",65)
+elif opcion == 3:
+    conversor("mexicanos",24)
+else:
+    print("Opcion incorrecta, Gracias por participar")
+```
+
+### Clase 18 Trabajando con texto: cadenas de caracteres
+
+**Método:** es una funcion especial  para un tipo de dato en particular.
+
+```py
+#METODOS:
+variable.upper() #Todos los caracteres en MAYÚSCULAS
+variable.capitalize() #solo la primera en MAYÚSCULA
+variable.lower() = 'todos los caracteres en minúscula'
+variable.strip() = #eliminar espacios basura del string al inicio y final
+variable.replace('caracter_a_cambiar', 'caracter_por_poner') #remplazar caracter
+
+#FUNCIONES BILT-IN
+aquellas que son propias del lenguaje y que no tenemos que crearlas, solo invocarlas.
+
+len()
+print()
+input()
+
+#Indices
+# Siempre podemos acceder a los caracteres de un string por su indice
+>>> nombre='rusbel'
+>>> nombre[0]
+'r'
+
+>>> nombre[1]
+'u'
+
+>>> nombre[2]
+'s'
+```
+
+### Clase 19 Trabajando con texto: slices
+
+Los slices o rebanadas son una extension de los indices,  usando el key ":" permite indicar a python del string dame la información desde el indice uno hasta el indice 10 [1:10], podemos agregar pasos para ir de dos en dos, dos en tres [1:10:2] o al revés [1:10:-1]
+
+```py
+>>> nombre = "Francisco"
+>>> nombre
+'Francisco'
+>>> nombre[0]
+'F'
+>>> nombre[1]
+'r'
+>>> nombre[0:3]
+'Fra'
+>>> nombre[:3]
+'Fra'
+>>> nombre[3:]
+'ncisco'
+>>> nombre[1:7]
+'rancis'
+>>> nombre[1:7:2]
+'rni'
+>>> nombre[ :: ]
+'Francisco'
+>>> nombre[1::3]
+'rcc'
+>>> nombre[::-1]
+'ocsicnarF'
+>>>
+```
+
+### Clase 20 Proyecto: palindromo
+
+```py
+def palindromo(palabra):
+    palabra = palabra.lower()
+    palabra = palabra.replace(' ', '')
+    if palabra == palabra[::-1]:
+        returnTrue
+    else:
+        returnFalse
+
+
+def run():
+    palabra = input("Por favor, ingresa una frase o palabra: ")
+    if palindromo(palabra):
+        print("Es un palíndromo")
+    else:
+        print("No es un palíndromo")
+
+
+if __name__ == '__main__':
+    run()
+```
+
+`if __name__ == '__main__'` es el entry-point de los programas en python, si internamente el nombre de este programa es main, ejecuta el codigo debajo de este, los modulos de python (programas de python en carpetas llamados por el script principal) no tienen esta instrucción.  
+
+## Modulo 4 Bucles
+
+### Clase 21 Aprendiendo bucles
+
+Un bucle es un ciclo continuo en todos los lenguajes de programacion, que nos permite iterar sobre nuestros pasos, imagina un contador cíclico (1,2,3,4,5,6...) donde puedes agregar un paso mas sobre tu programa principal.
+
+Un bucle de la vida real
+
+- Despertar
+- Estudiar en platzi
+- Comer
+- Dormir
+
+Cuando repetimos estas acciones en ese orden, durante un tiempo determinado o infinito estamos hablando de un bucle.
+
+### Clase 22 El ciclo while
+
+```py
+def run():
+    LIMITE = 1000000
+    contador = 0
+    potencia_2 = 2**contador
+    while potencia_2 < LIMITE:
+        print('2 elevado a ' + str(contador) +
+              ' es igual a: ' + str(potencia_2))
+        contador = contador + 1
+        potencia_2 = 2**contador
+
+if __name__ == "__main__":
+    run()
+```
+
+### Clase 23 Explorando un bucle diferente: el ciclo for
+
+```py
+def imprimir_numero(inicio, fin):
+    for inicio in range(fin+1):
+        print(f'Numero: {inicio}')
+
+
+def imprimir_numero_while(inicio, fin):
+    while inicio <= fin:
+        print(f'Numero: {inicio}')
+        inicio += 1
+
+def run():
+
+
+    while True:
+        print('')
+        print('*********************************************************')
+        print('*******************N U M E R O S**********************')
+        print('')
+        inicio = int(input('Digite el número inicial para la secuencial:  '))
+        print('')
+        fin = int(input('Digite el número final para la secuencial: '))
+        print('')
+
+        if inicio < fin:
+            imprimir_numero(inicio,fin)
+        else:
+            print(f'El numero inicial {inicio} debe ser ser menor al numero final {fin}.')
+
+
+
+if __name__ == "__main__":
+    run()
+```
+
+### Clase 24 Recorriendo un string con for
+
+Ejemplo 1
+
+```py
+def run():
+    ## Este ejemplo imprime cada caracter de tu nombre
+    nombre = input("Escribe tu nombre :")
+    for letra in nombre:
+        print(letra)
+
+if __name__ == "__main__":
+    run()
+
+```
+
+Ejemplo 2
+
+```py
+def run():
+    frase = input("Escribe una frase : ")
+    for caracter in frase:
+        print(caracter.upper())
+
+
+
+if __name__ == "__main__":
+    run()
+
+```
+
+### Clase 25 Interrumpiendo ciclos con break y continue
+
+Ejemplo1
+
+```py
+def run():
+    for i in range(10000):
+        print(i)
+        if i == 5678:
+            break
+
+if __name__ == '__main__':
+    run()
+```
+
+ejemplo 2
+
+```py
+def run():
+    for contador in range(1000):
+        if contador % 2 != 0:
+            continue
+        print(contador)
+
+if __name__ == '__main__':
+    run()
+```
+
+ejemplo 3
+
+```py
+def run():
+    texto= input('Escribe un texto: ')
+    for letra in texto:
+        if letra == 'o':
+            break
+        print(letra)
+
+if __name__ == '__main__':
+    run()
+```
+
+### Clase 26 Proyecto: prueba de primalidad
+
+```py
+def es_primo(numero):
+    if numero == 1:
+        return False
+    else:
+        contador = 0
+    for i in range(1 , numero+1):
+        if i == 1 or i == numero:
+            continue
+        if numero % i == 0:
+            contador += 1
+    if contador == 0:
+        return True
+    else:
+        return False
+
+
+def run():
+    numero = int(input("Escribe un número: "))
+    if es_primo(numero):
+        print(str(numero) + " es primo")
+    else:
+        print(str(numero) +  " NO es primo")
+
+
+if __name__ == "__main__":
+    run()
+```
+
+### Clase 27 Proyecto: videojuego
+
+```py
+import random
+
+def run():
+    numero_aleatorio = random.randint(1, 100)
+    numero_elegido = int(input("Elije un numero del 1 al 100 :"))
+    while numero_elegido != numero_aleatorio:
+        if numero_elegido < numero_aleatorio:
+            print("Busca un numero mas grande ")
+        else:
+            print("Busca un numero mas pequeño ")
+        numero_elegido = int(input("Elije otro numero  :"))
+    print("Ganaste!")
+
+
+if __name__ == "__main__":
+    run()
+```
+
+## Modulo 5 Estructuras de datos
+
+### Clase 28  Almacenar varios valores en una variable: listas
+
+Las listas pertenecen a las estructuras de datos en python, pueden almacenar distintos tipos de primitivos u otras estructuras de datos dentro de una misma lista
+
+```py
+#declarar lista
+my_lista = []
+my_lista = list()
+
+#unir listas
+my_lista = [1]
+my_lista2 = [2,3,4]
+my_lista3 = my_lista + my_lista2
+my_lista3 # [1,2,3,4]
+
+#partir listas como slices
+my_lista = [1,2,3]
+my_lista[1:] = [2,3]
+
+#extender una lista
+my_lista = [1]
+my_lista2 = [2,3,4]
+my_lista.extend(my_lista2) # [1,2,3,4]
+
+#multiplicar listas
+my_lista = ['a']
+my_lista2 = my_lista * 5
+my_lista2 # ['a','a','a','a','a']
+
+#eliminar ultimo elemento de la lista
+my_lista = [1,2,3,4,5]
+my_lista = my_lista.pop()
+my_lista # [1,2,3,4]
+
+#ordenar lista
+my_lista = [2,1,5,4,3]
+my_lista = my_lista.sort()
+my_lista # [1,2,3,4,5]
+
+#eliminar un elemento
+my_lista = [1,2,3,4,5]
+del my_lista[0]
+my_lista # [2,3,4,5]
+
+#eliminar si conocemos su valor
+my_lista = [1,2,3,4,5]
+my_lista.remove(3)
+my_lista #[1,2,4,5]
+
+#saber que metodos hay dentro de un elemento
+my_lista = [1,2,3,4,5]
+dir(my_lista) # ['__add__', '__class__', '__contains__', ...
+
+#modificar un elemento
+my_lista = [1,2,3,4,5]
+my_lista[0] = 100
+my_lista # [100,2,3,4,5]
+
+#añadir un elemento al final
+my_lista = [1,2,3,4,5]
+my_lista.append(6)
+my_lista # [1,2,3,4,5,6]
+
+#organizar una lista
+my_lista = [2,5,1,3,4]
+my_lista.sort() #[1,2,3,4,5]
+
+```
+
+ALgunos metodos adicionales
+
+```py
+.sorted() # También ordena como sort() pero modifica la lista inicial
+.clear() # vaciá la lista
+.count() # Cuenta las veces que esta un elemento en lista
+.index() #--> Indica la posición donde esta un elemento de la lista
+.insert() #--> Inserta un elemento en una posición dada ej: lista.insert(posición,item)
+.reverse() #--> Le da la vuelta a una lista
+```
+
+### Clase 29 Entendiendo cómo funcionan las tuplas
+
+Las tuplas son estructuras de datos inmutables es decir, no puedes modificar una tupla "a" agregando o quitando un valor, lo único que puedes hacer es definir de nuevo esa tupla "a". Los objetos inmutables (como los strings) son tipos de datos para python que apuntan a un lugar especifico en memoria y que su contenido no puede ser cambiado, al cambiar el contenido predefiniendo el contenido de la variable "a" entonces cambiara su posición en memoria.
+
+```py
+#declarar tupla
+mi_tupla = ()
+mi_tupla = (1,2,3)
+
+#generar una tupla de 1 solo valor (Obligatorio la ,)
+mi_tupla = (1,)
+
+#acceder a un indice de la tupla
+mi_tupla = (1,2,3)
+mi_tupla[0] #1
+mi_tupla[1] #2
+mi_tupla[2] #3
+
+#reasignar una tupla
+mi_tupla = (1,2,3)
+mi_otra_tupla = (4,5,6)
+mi_tupla =+ mi_otra_tupla
+
+#metodos de las tuplas
+mi_tupla = (1,1,1,2,2,3)
+mi_tupla.count(1) #3 el numero 1 aparece 3 veces en la tupla
+mi_tupla.index(3) #5 indice de la primera instancia donde se encuentra un elemento
+mi_tupla.index(1) #0
+mi_tupla.index(2) #3
+```
+
+### Clase 30 Que son los diccionarios
+
+```py
+# Definir función principal
+def run():
+    # Defino el diccionario, agrego los valores.
+    mi_diccionario = {
+      'llave1' : 1,
+      'llave2' : 2,
+      'llave3' : 3,
+    }
+
+
+    # Imprimo las llaves del diccionario utilizando una bucle for
+    # Con '.keys()' estoy llamando a imprimir las llaves, no los valores.
+    for llave in mi_diccionario.keys():
+        print(llave)
+
+    # Imprimo los valores del diccionario utilizando una bucle for
+    # Con '.values()' estoy llamando a imprimir los valores.
+    for valores in mi_diccionario.values():
+        print(valores)
+
+    # Imprimir las llaves y los valores utilizando '.items()'
+    # Para esto, coloco las variables llave e items
+    for llave, items in mi_diccionario.items():
+        print("La llave: '" + llave + "' contiene el item: " + str(items))
+
+
+if __name__ == '__main__':
+    run()
+```
+
+### Clase 31 Proyecto: generador de contrasenas
+
+```py
+def generar_contrasena():
+    mayusculas = ["A","B","C","D","E","F","G","H"]
+    minusculas = ["a","b","c","d","e","f","g","h"]
+    simbolos = ["!","@","#","$","%","&","/"]
+    numeros = ["1","2","3","4","5","6","7","8","9","0"]
+    caracteres = mayusculas + minusculas + simbolos + numeros
+    contrasena = []
+    for i in range(15):
+        caranter_ramdom = random.choice(caracteres)
+        contrasena.append(caranter_ramdom)
+    # convertir una lista a string
+    contrasena = "".join(contrasena)
+    return contrasena
+
+def run():
+    contrasena = generar_contrasena()
+    print("Tu nueva contraseña es: " + contrasena)
+
+
+if __name__ == "__main__":
+    run()
+```
